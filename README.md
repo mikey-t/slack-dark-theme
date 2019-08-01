@@ -1,4 +1,4 @@
-# slack-dark-theme for Mac
+# slack-dark-theme for Mac for Slack 4
 Instructions and resources for modding Slack 4 with a dark theme. Working as of 8/2019.
 
 # Pre-requisites:
