@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SLACK_CSS_FILE="https://gist.githubusercontent.com/mikey-t/777681081c11ed41978f121451f4fcf6/raw"
+SLACK_CSS_FILE="https://raw.githubusercontent.com/mikey-t/slack-dark-theme/master/slack-dark.css"
 
 JS="
 //START_SLACK_DARK_MOD
