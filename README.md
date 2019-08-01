@@ -20,4 +20,3 @@ The CSS currently checked in is from an older version 3 of Slack, so some functi
 This was pieced together from:
 - https://gist.github.com/DrewML/0acd2e389492e7d9d6be63386d75dd99
 - https://github.com/caiceA/slack-black-theme
-- 
