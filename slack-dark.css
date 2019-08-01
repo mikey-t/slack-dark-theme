@@ -18,6 +18,11 @@
 
 /* start mikey-t additions */
 
+body > div.p-client_container > div > div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless > div.p-workspace__top_nav > div > div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header > div.p-classic_nav__model__title
+    {
+        background-color: var(--background) !important;
+    }
+
 span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span, span.c-message_kit__text, span.c-message_attachment__text, span.c-reaction__count, div.p-message_pane__foreword__description, .ql-placeholder, span.c-message_kit__file__meta__text {
     color: var(--text) !important;
 }
