@@ -1,0 +1,4 @@
+MOD_START="START_SLACK_DARK_MOD"
+MOD_END="END_SLACK_DARK_MOD"
+
+sed -i '' '/\/\/START_SLACK_DARK_MOD/,/\/\/END_SLACK_DARK_MOD/d' remove-test.txt
