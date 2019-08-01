@@ -16,7 +16,13 @@ Instructions and resources for modding Slack 4 with a dark theme. Working as of 
 # CSS Current State
 The CSS currently checked in is from an older version 3 of Slack, so some functionality is missing dark CSS rules. I'll add these when I have time. Feel free to submit a PR if you have CSS fixes you want to share.
 
+# How to Undo this change
+- Edit the file `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/dist/ssb-interop.bundle.js` (requires sudo) and remove everything between `START_SLACK_DARK_MOD` and `END_SLACK_DARK_MOD`
+- Run pack.sh
+- Reload Slack
+
 # Credit
 This was pieced together from:
 - https://gist.github.com/DrewML/0acd2e389492e7d9d6be63386d75dd99
 - https://github.com/caiceA/slack-black-theme
+
