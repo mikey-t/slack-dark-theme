@@ -18,20 +18,23 @@
 
 /* start mikey-t additions */
 
-body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header>div.p-classic_nav__model__title, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header, body > div.p-client_container > div > div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless > div.p-workspace__top_nav > div > div.p-classic_nav__right_header.p-classic_nav__right_header--frameless.p-classic_nav__drag, body > div.p-client_container > div > div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless > div.p-workspace__primary_view > div > div > footer, div.p-client__team_sidebar, div.p-classic_nav__team_header {
+body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header>div.p-classic_nav__model__title, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__right_header.p-classic_nav__right_header--frameless.p-classic_nav__drag, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__primary_view>div>div>footer, div.p-client__team_sidebar, div.p-classic_nav__team_header, div.c-menu_separator__li, div.c-menu__items, div.p-flexpane__body, div.p-classic_nav__channel_header, div.p-classic_nav, footer, div.ReactModal__Content > div, div.c-search__input_box, div.c-search, div.c-search__results, div.c-search__tabs, div.c-message_group {
     background-color: var(--background) !important;
 }
 
-span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span, span.c-message_kit__text, span.c-message_attachment__text, span.c-reaction__count, div.p-message_pane__foreword__description, .ql-placeholder, span.c-message_kit__file__meta__text {
+span.c-message__body, a.c-message__sender_link, span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption, div.p-message_pane__foreword__description span, span.c-message_kit__text, span.c-message_attachment__text, span.c-reaction__count, div.p-message_pane__foreword__description, .ql-placeholder, span.c-message_kit__file__meta__text, strong, span.c-unified_member__display-name, span.c-search_autocomplete__query_parts, div.c-search_message__body > span, label.p-search_filter__visible_option, label.p-search_filter__checkbox_label {
     color: var(--text) !important;
+}
+
+div.ReactVirtualized__Grid {
+    background-color: var(--background-elevated) !important;
 }
 
 .c-message, .c-virtual_list__item, div.c-virtual_list__scroll_container, div#client_body::before, div.c-scrollbar__hider::before {
     background-color: var(--background) !important;
 }
 
-div.p-flexpane_header, div.p-flexpane_header__children, span.c-channel_name, div.p-message_input_field, button.c-button-unstyled, span.c-label__text,
-div.c-message_list__day_divider__label__pill {
+div.p-flexpane_header, div.p-flexpane_header__children, span.c-channel_name, div.p-message_input_field, button.c-button-unstyled, span.c-label__text, div.c-message_list__day_divider__label__pill {
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
