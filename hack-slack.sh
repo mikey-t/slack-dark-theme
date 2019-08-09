@@ -6,7 +6,6 @@ JS=$(<slack-dark.js)
 SLACK_RESOURCES_DIR="/Applications/Slack.app/Contents/Resources"
 SLACK_FILE_PATH="${SLACK_RESOURCES_DIR}/app.asar.unpacked/dist/ssb-interop.bundle.js"
 
-TEMP="***whatever***"
 HACK="${JS/CSS_PLACEHOLDER/$CSS}"
 
 echo "Hacking Slack..."
