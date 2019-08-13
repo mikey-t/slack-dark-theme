@@ -18,7 +18,7 @@
 
 /* start mikey-t additions */
 
-body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header>div.p-classic_nav__model__title, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__right_header.p-classic_nav__right_header--frameless.p-classic_nav__drag, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__primary_view>div>div>footer, div.p-client__team_sidebar, div.p-classic_nav__team_header, div.c-menu_separator__li, div.c-menu__items, div.p-flexpane__body, div.p-classic_nav__channel_header, div.p-classic_nav, footer, div.ReactModal__Content > div, div.c-search__input_box, div.c-search, div.c-search__results, div.c-search__tabs, div.c-message_group {
+body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header>div.p-classic_nav__model__title, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__channel_header.p-classic_nav__channel_header--frameless.p-classic_nav__drag.p-classic_nav__model_header, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__top_nav>div>div.p-classic_nav__right_header.p-classic_nav__right_header--frameless.p-classic_nav__drag, body>div.p-client_container>div>div.p-workspace.p-workspace--context-pane-collapsed.p-workspace--classic-nav.p-workspace--classic-nav--frameless>div.p-workspace__primary_view>div>div>footer, div.p-client__team_sidebar, div.p-classic_nav__team_header, div.c-menu_separator__li, div.c-menu__items, div.p-flexpane__body, div.p-classic_nav__channel_header, div.p-classic_nav, footer, div.ReactModal__Content > div, div.c-search__input_box, div.c-search, div.c-search__results, div.c-search__tabs, div.c-message_group, div.p-threads_view__footer, div.c-fullscreen_modal__body {
     background-color: var(--background) !important;
 }
 
@@ -34,7 +34,7 @@ div.ReactVirtualized__Grid {
     background-color: var(--background) !important;
 }
 
-div.p-flexpane_header, div.p-flexpane_header__children, span.c-channel_name, div.p-message_input_field, button.c-button-unstyled, span.c-label__text, div.c-message_list__day_divider__label__pill {
+div.p-flexpane_header, div.p-flexpane_header__children, span.c-channel_name, div.p-message_input_field, button.c-button-unstyled, span.c-label__text, div.c-message_list__day_divider__label__pill, div.c-message_kit__actions, div.p_threads_view_load_older_button, div.c-multi_select_input, div.c-base_entity__text-contents {
     background-color: var(--background) !important;
     color: var(--text) !important;
 }
@@ -44,6 +44,11 @@ pre.special_formatting {
     color: #8f8f8f !important;
     border: solid;
     border-width: 1 px !important;
+}
+
+button.c-button {
+    background-color: var(--background-elevated) !important;
+    color: var(--text) !important;
 }
 
 /* end mikey-t additions */
