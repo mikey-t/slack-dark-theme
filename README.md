@@ -1,4 +1,6 @@
 # slack-dark-theme for Mac for Slack 4
+**Update October 2019**: Slack released an official dark theme! https://slack.com/help/articles/115004846068-slack-updates-and-changes
+
 Instructions and resources for modding Slack 4 with a dark theme. Working as of 8/2019.
 
 # Pre-requisites:
